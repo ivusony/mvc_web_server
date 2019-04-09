@@ -1,0 +1,19 @@
+{
+  "name": "xml_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack"
+  },
+  "author": "radulov",
+  "license": "ISC"
+}
