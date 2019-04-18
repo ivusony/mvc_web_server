@@ -19,6 +19,10 @@ app.get('/', function(req, res, next){
     console.log(req.body);
 });
 
+app.get('/getdata', function(req, res, next){
+    res.sendFile(path.join(__dirname+'/data/dataset.xml'));
+});
+
 app.listen(PORT, function(){
     console.log('Server is listening on port ' + PORT);
 });
