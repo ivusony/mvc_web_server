@@ -1,5 +1,5 @@
 function getData(){
-    return fetch('http://localhost/getdata');
+    return fetch('http://127.0.0.1/getdata');
 }
 
 module.exports = getData;
