@@ -1,5 +1,5 @@
 function getData(){
-    return fetch('http://localhost:3000/getdata');
+    return fetch('http://localhost/getdata');
 }
 
 module.exports = getData;
